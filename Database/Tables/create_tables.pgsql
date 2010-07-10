@@ -15,5 +15,6 @@ CREATE TABLE trip (
     weight numeric,
     bol_number citext,
     po_number citext,
-    waybill_number citext
+    waybill_number citext,
+    trip_source_id int
 );
